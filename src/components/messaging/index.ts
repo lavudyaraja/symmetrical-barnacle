@@ -5,6 +5,7 @@ export * from './ConversationHeader';
 export * from './MessageBubble';
 export * from './MessageStatus';
 export * from './TypingIndicator';
-export * from './MessageActions';
+import  MessageActions  from '@/components/messaging';
+   export default {MessageActions} ;
 export * from './MessagingPage';
 export * from './types';
