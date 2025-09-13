@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "lib": ["deno.ns", "deno.window", "dom"],
+    "strict": true,
+    "noEmit": true,
+    "types": ["https://deno.land/x/types/deno.d.ts"]
+  },
+  "importMap": "./import_map.json",
+  "tasks": {
+    "start": "deno run --allow-all --watch=static/,routes/ dev.ts"
+  }
+}
